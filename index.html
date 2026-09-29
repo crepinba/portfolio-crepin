@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bataya Crépin — Développeur Web Full-Stack</title>
+<meta name="description" content="Portfolio de Bataya Crépin, développeur web full-stack — Python, Django, React.js, TypeScript, PostgreSQL.">
+<link rel="icon" type="image/jpeg" href="assets/photo.jpg">
+<link rel="apple-touch-icon" href="assets/photo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&family=JetBrains+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#accueil" class="logo">Bataya Crépin</a>
+    <div class="nav-group">
+      <nav class="nav">
+        <a href="#profil">Profil</a>
+        <a href="#experience">Expérience</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#formation">Formation</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Basculer le thème clair / sombre">
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a6.6 6.6 0 0 0 10.5 10.5Z"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section id="accueil" class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">Développeur Web Full-Stack</p>
+        <h1>Bataya Crépin</h1>
+        <p class="hero-lede">
+          Je conçois et développe des applications web de bout en bout — de l'API
+          jusqu'à l'interface — avec Python, Django et React.js, dans un souci
+          constant de rigueur et de qualité.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Me contacter</a>
+          <a href="assets/CV-Bataya-Crepin.pdf" download class="btn btn-ghost">Télécharger mon CV</a>
+        </div>
+        <ul class="hero-meta">
+          <li>Togo</li>
+          <li>crepinbataya8@gmail.com</li>
+          <li>github.com/crepinba</li>
+        </ul>
+      </div>
+
+      <div class="hero-photo">
+        <div class="avatar" id="avatar">
+          <img src="assets/photo.jpg" alt="Photo de Bataya Crépin" id="avatar-img">
+          <span class="avatar-fallback" id="avatar-fallback">Bataya<br>Crépin</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROFIL -->
+  <section id="profil" class="section profil">
+    <div class="wrap profil-inner">
+      <p class="eyebrow">Profil</p>
+      <p class="profil-text">
+        Développeur full-stack diplômé en Génie Logiciel,
+        spécialisé dans la conception et le développement d'applications web.
+        Solide expérience pratique avec Python, Django REST Framework, React.js,
+        TypeScript et PostgreSQL. Rigoureux et autonome, je souhaite contribuer
+        à des projets logiciels innovants et développer davantage mon expertise
+        technique.
+      </p>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Expérience professionnelle</p>
+
+      <article class="timeline-item">
+        <div class="timeline-date">Sept. 2025 — Août 2026</div>
+        <div class="timeline-content">
+          <h3>Développeur Web Full-Stack <span>· Stagiaire</span></h3>
+          <p class="timeline-org">Digital Hub Togo — Togo</p>
+          <ul>
+            <li>Conception et développement de <strong>BANDJELI</strong>, une plateforme e-learning intelligente à parcours pédagogiques personnalisés et assistance par IA.</li>
+            <li>Développement des API REST et de la logique métier avec Python, Django et Django REST Framework.</li>
+            <li>Construction des interfaces avec React.js, TypeScript, Tailwind CSS et Shadcn UI.</li>
+            <li>Gestion des données PostgreSQL et optimisation des échanges front/back avec RTK Query.</li>
+            <li>Modélisation UML/Modelio du projet ; collaboration via Git/GitHub et Docker.</li>
+          </ul>
+          <div class="tags">
+            <span>Python</span><span>Django</span><span>DRF</span><span>React.js</span><span>TypeScript</span><span>PostgreSQL</span><span>Docker</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-date">6 semaines</div>
+        <div class="timeline-content">
+          <h3>Développeur Web <span>· Stagiaire, 2ᵉ année</span></h3>
+          <p class="timeline-org">Entreprise locale — Togo</p>
+          <ul>
+            <li>Analyse des besoins fonctionnels d'une plateforme web de cours en ligne.</li>
+            <li>Développement de l'application full-stack avec Laravel.</li>
+            <li>Implémentation de l'authentification et de la gestion des utilisateurs/cours.</li>
+            <li>Intégration de contenus pédagogiques (textes, vidéos, documents) avec PostgreSQL et MySQL.</li>
+          </ul>
+          <div class="tags">
+            <span>Laravel</span><span>PostgreSQL</span><span>MySQL</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- PROJETS -->
+  <section id="projets" class="section projets">
+    <div class="wrap">
+      <p class="eyebrow">Projets professionnels</p>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>BANDJELI — SaaS d'apprentissage intelligent</h3>
+          <p>Plateforme SaaS EdTech multi-tenant proposant des parcours pédagogiques personnalisés, un éditeur de contenu interactif et une assistance par IA.</p>
+          <p class="tech-stack"><strong>Tech :</strong> Django REST, React, TypeScript, PostgreSQL, Plate.js</p>
+        </article>
+        <article class="project-card">
+          <h3>Gestion Électricité — Application mobile</h3>
+          <p>Application de calcul et répartition automatisée des factures d'électricité par logement et occupant selon les appareils utilisés, suivi des paiements et export de rapports PDF.</p>
+          <p class="tech-stack"><strong>Tech :</strong> Flutter, Dart, SQLite (sqflite), Provider, PDF/Printing</p>
+        </article>
+        <article class="project-card">
+          <h3>EPHAB Togo — Application web institutionnelle</h3>
+          <p>Site institutionnel de l'École des Personnes Handicapées Auditives (BETHEL) : backend API Laravel conteneurisé avec Docker déployé sur Railway et frontend Next.js déployé sur Vercel.</p>
+          <p class="tech-stack"><strong>Tech :</strong> Laravel, Next.js, PostgreSQL, Docker, Railway, Vercel</p>
+        </article>
+      </div>
+
+      <p class="eyebrow">Projets académiques</p>
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Application de gestion de stock</h3>
+          <p>Suivi et gestion efficace des niveaux de stock d'une organisation.</p>
+        </article>
+        <article class="project-card">
+          <h3>Plateforme de suivi de cours en ligne</h3>
+          <p>Gestion et suivi de contenus de formation pour un établissement.</p>
+        </article>
+        <article class="project-card">
+          <h3>Application de gestion immobilière</h3>
+          <p>Gestion des biens et des informations immobilières d'une agence.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPETENCES -->
+  <section id="competences" class="section competences">
+    <div class="wrap">
+      <p class="eyebrow">Compétences techniques</p>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h4>Langages</h4>
+          <div class="tags"><span>Python</span><span>Java</span><span>PHP</span><span>JavaScript</span><span>TypeScript</span><span>HTML</span><span>CSS</span></div>
+        </div>
+        <div class="skill-group">
+          <h4>Back-end</h4>
+          <div class="tags"><span>Django</span><span>DRF</span><span>Spring Boot</span><span>Laravel</span><span>Node.js</span><span>Express.js</span></div>
+        </div>
+        <div class="skill-group">
+          <h4>Front-end</h4>
+          <div class="tags"><span>React.js</span><span>Next.js</span><span>AngularJS</span><span>Tailwind CSS</span><span>Shadcn UI</span></div>
+        </div>
+        <div class="skill-group">
+          <h4>Mobile</h4>
+          <div class="tags"><span>Flutter</span><span>React Native</span></div>
+        </div>
+        <div class="skill-group">
+          <h4>Bases de données</h4>
+          <div class="tags"><span>PostgreSQL</span><span>MySQL</span><span>SQLite</span></div>
+        </div>
+        <div class="skill-group">
+          <h4>Outils &amp; méthodes</h4>
+          <div class="tags"><span>Git</span><span>GitHub</span><span>Docker</span><span>Modelio</span><span>UML</span><span>API REST</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMATION -->
+  <section id="formation" class="section">
+    <div class="wrap">
+      <p class="eyebrow">Formation</p>
+
+      <article class="timeline-item">
+        <div class="timeline-date">2022 — 2026</div>
+        <div class="timeline-content">
+          <h3>Licence en Génie Logiciel</h3>
+          <p class="timeline-org">IFNTI — Togo</p>
+        </div>
+      </article>
+
+      <article class="timeline-item">
+        <div class="timeline-date">2022</div>
+        <div class="timeline-content">
+          <h3>Baccalauréat — Série D</h3>
+          <p class="timeline-org">Togo</p>
+        </div>
+      </article>
+
+      <div class="langues">
+        <div>
+          <h4>Langues</h4>
+          <p>Français <span class="dim">— courant</span> &nbsp;·&nbsp; Anglais <span class="dim">— débutant</span></p>
+        </div>
+        <div>
+          <h4>Centres d'intérêt</h4>
+          <p>Football, musique</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact">
+    <div class="wrap contact-inner">
+      <p class="eyebrow">Contact</p>
+      <h2>Discutons de votre prochain projet</h2>
+      <p class="contact-lede">Disponible pour des opportunités professionnelles, missions freelance ou pour rejoindre une équipe technique.</p>
+
+      <!-- Formulaire interactif -->
+      <form id="contact-form" class="contact-form" action="https://formspree.io/f/placeholder" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Votre nom</label>
+            <input type="text" id="name" name="name" required placeholder="Ex: Jean Dupont" autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Votre email</label>
+            <input type="email" id="email" name="email" required placeholder="jean@exemple.com" autocomplete="email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="subject">Objet</label>
+          <input type="text" id="subject" name="subject" required placeholder="Proposition de mission, opportunité...">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="Décrivez votre projet, vos objectifs ou votre demande..."></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" id="contact-submit-btn">
+            <span>Envoyer le message</span>
+          </button>
+        </div>
+        <div id="form-status" class="form-status" role="status"></div>
+      </form>
+
+      <div class="contact-divider">
+        <span>Ou directement</span>
+      </div>
+
+      <div class="contact-links">
+        <a href="mailto:crepinbataya8@gmail.com">crepinbataya8@gmail.com</a>
+        <a href="tel:+22891361711">+228 91 36 17 11</a>
+        <a href="https://github.com/crepinba" target="_blank" rel="noopener">github.com/crepinba</a>
+        <a href="assets/CV-Bataya-Crepin.pdf" download>Télécharger le CV (PDF)</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <span>Bataya Crépin — Développeur Web Full-Stack</span>
+    <span>Togo</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('avatar-img').addEventListener('error', function () {
+    this.style.display = 'none';
+    document.getElementById('avatar-fallback').style.display = 'flex';
+  });
+
+  /* ---- Thème clair / sombre ----
+     Le CSS définit déjà un thème clair par défaut ; ce script ne fait
+     qu'ajuster l'attribut data-theme. S'il échoue, le site reste
+     simplement en thème clair, jamais vide. */
+  try {
+    var root = document.documentElement;
+    var toggle = document.getElementById('theme-toggle');
+    var stored = localStorage.getItem('theme');
+    var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    var initial = stored || (prefersDark ? 'dark' : 'light');
+    root.setAttribute('data-theme', initial);
+
+    toggle.addEventListener('click', function () {
+      var current = root.getAttribute('data-theme');
+      var next = current === 'dark' ? 'light' : 'dark';
+      root.setAttribute('data-theme', next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+  } catch (e) {
+    /* pas de JS ou erreur : le thème clair par défaut du CSS s'applique */
+  }
+
+  /* ---- Gestion de l'envoi du formulaire de contact ---- */
+  var contactForm = document.getElementById('contact-form');
+  var formStatus = document.getElementById('form-status');
+  var submitBtn = document.getElementById('contact-submit-btn');
+
+  if (contactForm) {
+    contactForm.addEventListener('submit', async function (e) {
+      e.preventDefault();
+      var btnSpan = submitBtn.querySelector('span');
+      var originalText = btnSpan.textContent;
+      btnSpan.textContent = 'Envoi en cours...';
+      submitBtn.disabled = true;
+
+      try {
+        var formData = new FormData(contactForm);
+        // Si l'endpoint est un placeholder, simuler la confirmation avec ouverture mailto
+        if (contactForm.action.includes('placeholder')) {
+          var name = formData.get('name');
+          var subject = formData.get('subject');
+          var body = formData.get('message');
+          var mailtoUrl = 'mailto:crepinbataya8@gmail.com?subject=' + encodeURIComponent('[' + subject + '] de ' + name) + '&body=' + encodeURIComponent(body);
+          
+          formStatus.className = 'form-status success';
+          formStatus.textContent = 'Merci ! Votre client de messagerie va s\'ouvrir pour finaliser l\'envoi à crepinbataya8@gmail.com.';
+          window.location.href = mailtoUrl;
+          contactForm.reset();
+        } else {
+          var response = await fetch(contactForm.action, {
+            method: 'POST',
+            body: formData,
+            headers: { 'Accept': 'application/json' }
+          });
+
+          if (response.ok) {
+            formStatus.className = 'form-status success';
+            formStatus.textContent = 'Message envoyé avec succès ! Je vous répondrai dans les plus brefs délais.';
+            contactForm.reset();
+          } else {
+            var data = await response.json();
+            formStatus.className = 'form-status error';
+            formStatus.textContent = (data && data.errors) 
+              ? data.errors.map(function (err) { return err.message; }).join(', ')
+              : 'Une erreur est survenue lors de l\'envoi. N\'hésitez pas à m\'écrire directement par email.';
+          }
+        }
+      } catch (err) {
+        formStatus.className = 'form-status error';
+        formStatus.textContent = 'Impossible d\'envoyer pour le moment. Veuillez utiliser directement le lien email ci-dessous.';
+      } finally {
+        btnSpan.textContent = originalText;
+        submitBtn.disabled = false;
+      }
+    });
+  }
+</script>
+
+</body>
+</html>
